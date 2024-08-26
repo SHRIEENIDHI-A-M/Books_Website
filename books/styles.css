@@ -1,0 +1,305 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4caf50;
+  /* background-color: #4c74afa9; */
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+h4 {
+  font-style: italic;
+  margin: 5px 0;
+}
+
+a {
+  /* color: #1208009b; */
+  color: #b19566;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1208009b;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3c1b0091;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  background-color: #311e0f;
+  padding: 25px;
+  position: relative;
+}
+
+.header-content {
+  position: relative;
+}
+
+.login-signup {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.login-signup a {
+  margin: 0 10px;
+  text-decoration: none;
+  /* color: #fddb53; */
+  color: #fec20c;
+}
+
+h1 {
+  margin: 0;
+}
+
+h4 {
+  margin: 5px 0 20px;
+}
+
+.search-container {
+  margin-top: 10px;
+}
+
+#search-bar {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #f4852b52;
+  color: #ffffff;
+  transform: translateX(-250px);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.sidebar-content h3 {
+  margin-top: 0;
+}
+
+.sidebar-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-content li {
+  margin: 10px 0;
+}
+
+.sidebar-content a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sidebar-content a:hover {
+  text-decoration: underline;
+}
+
+.sidebar-toggle-checkbox {
+  display: none;
+}
+
+.sidebar-toggle-label {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.sidebar-toggle-checkbox:checked ~ .sidebar {
+  transform: translateX(0);
+}
+
+.sidebar-toggle-checkbox:checked ~ .sidebar-toggle-label {
+  left: 260px;
+}
+
+/* Home page styles */
+.home-page {
+  background-image: url("assets/images/home-background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.home-content {
+  margin-bottom: 30px;
+}
+
+.genre-links {
+  margin: 20px 0;
+}
+
+.genre-links a {
+  display: inline-block;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.genre-link {
+  color: #fff;
+  text-decoration: none;
+  background-color: #444;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Genre pages styles */
+.genre-fantasy {
+  background: url("assets/images/background-fantasy.jpg") no-repeat center
+    center/cover;
+}
+.genre-fantasy p {
+  color: #ffffff;
+}
+/* Add styles for other genre pages */
+.genre-horror {
+  background: url("assets/images/background-horror.jpg") no-repeat center
+    center/cover;
+}
+.genre-horror p {
+  color: #ffffff;
+}
+
+.genre-adventure {
+  background: url("assets/images/background-adventure.jpg") no-repeat center
+    center/cover;
+}
+.genre-adventure p {
+  color: #ffffff;
+}
+
+.genre-scifi {
+  background: url("assets/images/background-sci-fi.jpg") no-repeat center
+    center/cover;
+}
+.genre-scifi p {
+  color: #ffffff;
+}
+.genre-mystery {
+  background: url("assets/images/background-mystery.jpg") no-repeat center
+    center/cover;
+}
+.genre-mystery p {
+  color: #ffffff;
+}
+.genre-fiction {
+  background: url("assets/images/background-fiction.jpg") no-repeat center
+    center/cover;
+}
+.genre-fiction p {
+  color: #ffffff;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+}
+.books-scroll {
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.book-cover {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.book-cover img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+.login-container,
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2,
+.signup-container h2 {
+  margin-bottom: 20px;
+  color: #120800;
+}
+
+.login-container form,
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-cover img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.book-cover img:hover {
+  transform: scale(1.1); /* Scales the image slightly larger */
+}
+.book-cover img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow effect */
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horror Books</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="login-signup">
+          <a href="#login">Login</a> | <a href="#signup">Sign Up</a>
+        </div>
+        <!-- <h1>BookVoyage</h1> -->
+        <h1>
+          <a href="index.html" style="text-decoration: none; color: inherit"
+            >BookVoyage</a
+          >
+        </h1>
+
+        <h4><i>A journey through the world of books.</i></h4>
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Search for genres or books..."
+          />
+        </div>
+      </div>
+    </header>
+    <input
+      type="checkbox"
+      id="sidebar-toggle"
+      class="sidebar-toggle-checkbox"
+    />
+    <label for="sidebar-toggle" class="sidebar-toggle-label">&#9776;</label>
+    <aside class="sidebar">
+      <div class="sidebar-content">
+        <h3>Pick your favourite</h3>
+        <ul>
+          <li><a href="fantasy.html">Fantasy</a></li>
+          <li><a href="horror.html">Horror</a></li>
+          <li><a href="adventure.html">Adventure</a></li>
+          <li><a href="scifi.html">Sci-Fi</a></li>
+          <li><a href="mystery.html">Mystery</a></li>
+          <li><a href="fiction.html">Fiction</a></li>
+        </ul>
+      </div>
+    </aside>
+    <main>
+      <section id="horror" class="books-display">
+        <h2><i>Horror Books</i></h2>
+        <div class="genre-horror">
+          <div class="book-cover">
+            <img
+              src="assets/images/books/horror-book-1.jpg"
+              vspace="20px"
+              alt="Haunted Nights"
+            />
+            <p>Haunted Nights</p>
+            <!-- <p>Author: Emily Rose</p>
+                    <p>A spine-chilling journey into the unknown.</p> -->
+          </div>
+          <div class="book-cover">
+            <img
+              src="assets/images/books/horror-book-2.jpg"
+              vspace="20px"
+              alt="Ghost Stories"
+            />
+            <p>Ghost Stories</p>
+            <!-- <p>Author: James King</p>
+                    <p>Terrifying tales of ghosts and apparitions.</p> -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 BookVoyage</p>
+    </footer>
+  </body>
+</html>

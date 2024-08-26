@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mystery Books</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="login-signup">
+          <a href="#login">Login</a> | <a href="#signup">Sign Up</a>
+        </div>
+        <!-- <h1>BookVoyage</h1> -->
+        <h1>
+          <a href="index.html" style="text-decoration: none; color: inherit"
+            >BookVoyage</a
+          >
+        </h1>
+
+        <h4><i>A journey through the world of books.</i></h4>
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Search for genres or books..."
+          />
+        </div>
+      </div>
+    </header>
+    <input
+      type="checkbox"
+      id="sidebar-toggle"
+      class="sidebar-toggle-checkbox"
+    />
+    <label for="sidebar-toggle" class="sidebar-toggle-label">&#9776;</label>
+    <aside class="sidebar">
+      <div class="sidebar-content">
+        <h3>Pick your favourite</h3>
+        <ul>
+          <li><a href="fantasy.html">Fantasy</a></li>
+          <li><a href="horror.html">Horror</a></li>
+          <li><a href="adventure.html">Adventure</a></li>
+          <li><a href="scifi.html">Sci-Fi</a></li>
+          <li><a href="mystery.html">Mystery</a></li>
+          <li><a href="fiction.html">Fiction</a></li>
+        </ul>
+      </div>
+    </aside>
+    <main>
+      <section id="mystery" class="books-display">
+        <h2><i>Mystery Books</i></h2>
+        <div class="genre-mystery">
+          <div class="book-cover">
+            <img
+              src="assets/images/books/mystery-book-1.jpg"
+              vspace="20px"
+              alt="The Hidden Truth"
+            />
+            <p>The Hidden Truth</p>
+            <!-- <p>Author: Agatha Christie</p>
+                    <p>A gripping mystery full of twists and turns.</p> -->
+          </div>
+          <div class="book-cover">
+            <img
+              src="assets/images/books/mystery-book-2.jpg"
+              vspace="20px"
+              alt="Detective's Dilemma"
+            />
+            <p>Detective's Dilemma</p>
+            <!-- <p>Author: Sherlock Holmes</p>
+                    <p>A classic detective story with a thrilling plot.</p> -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 BookVoyage</p>
+    </footer>
+  </body>
+</html>

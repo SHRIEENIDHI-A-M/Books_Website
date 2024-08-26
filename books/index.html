@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVoyage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="login-signup">
+          <a href="login.html">Login</a> | <a href="signup.html">Sign Up</a>
+        </div>
+
+        <!-- <h1>BookVoyage</h1> -->
+        <h1>
+          <a href="index.html" style="text-decoration: none; color: inherit"
+            >BookVoyage</a
+          >
+        </h1>
+
+        <h4><i>A journey through the world of books.</i></h4>
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Search for genres or books..."
+          />
+        </div>
+        <!-- <input type="search" id="search" placeholder="Search for a book or genre">
+            <ul id="genres">
+                <li><a href="fiction.html">Fiction</a></li>
+                <li><a href="fantasy.html">Fantasy</a></li>
+                <li><a href="horror.html">Horror</a></li>
+                <li><a href="mystery.html">Mystery</a></li>
+                <li><a href="adventure.html">Adventure</a></li>
+                <li><a href="scifi.html">Sci-Fi</a></li>
+
+            </ul> -->
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="home-page">
+        <div class="welcome-box">
+          <h2>Welcome to the BookVoyage!</h2>
+          <p>
+            Explore a wide variety of genres and discover your next favorite
+            book. Our club brings together book enthusiasts from around the
+            world to discuss, share, and enjoy literature.
+          </p>
+          <div class="genre-links">
+            <h3>Pick Your Genere</h3>
+            <a href="fantasy.html" class="genre-link">Fantasy</a>
+            <a href="horror.html" class="genre-link">Horror</a>
+            <a href="adventure.html" class="genre-link">Adventure</a>
+            <a href="scifi.html" class="genre-link">Sci-Fi</a>
+            <a href="mystery.html" class="genre-link">Mystery</a>
+            <a href="fiction.html" class="genre-link">Fiction</a>
+          </div>
+        </div>
+        <input
+          type="checkbox"
+          id="sidebar-toggle"
+          class="sidebar-toggle-checkbox"
+        />
+        <label for="sidebar-toggle" class="sidebar-toggle-label">&#9776;</label>
+        <aside class="sidebar">
+          <div class="sidebar-content">
+            <h3>Pick your favourite</h3>
+            <ul>
+              <li><a href="fantasy.html">Fantasy</a></li>
+              <li><a href="horror.html">Horror</a></li>
+              <li><a href="adventure.html">Adventure</a></li>
+              <li><a href="scifi.html">Sci-Fi</a></li>
+              <li><a href="mystery.html">Mystery</a></li>
+              <li><a href="fiction.html">Fiction</a></li>
+            </ul>
+          </div>
+        </aside>
+        <div class="books-scroll">
+          <marquee behavior="scroll" direction="left">
+            <div class="book-cover">
+              <img
+                src="assets/images/books/fantasy-book-1.jpg"
+                alt="The Enchanted Forest"
+              />
+              <img
+                src="assets/images/books/fantasy-book-2.jpg"
+                alt="Mystic Realm"
+              />
+              <img
+                src="assets/images/books/horror-book-1.jpg"
+                alt="Haunted Nights"
+              />
+              <img
+                src="assets/images/books/horror-book-2.jpg"
+                alt="Ghost Stories"
+              />
+              <img
+                src="assets/images/books/adventure-book-1.jpg"
+                alt="Journey to the Unknowns"
+              />
+              <img
+                src="assets/images/books/adventure-book-2.jpg"
+                alt="The Lost Treasure"
+              />
+              <img
+                src="assets/images/books/scifi-book-1.jpg"
+                alt="The Galactic Odyssey"
+              />
+              <img
+                src="assets/images/books/scifi-book-2.jpg"
+                alt="Alien Encounters"
+              />
+              <img
+                src="assets/images/books/fiction-book-1.jpg"
+                alt="The Great Escape"
+              />
+              <img
+                src="assets/images/books/fiction-book-2.jpg"
+                alt="Parallel Worlds"
+              />
+              <img
+                src="assets/images/books/mystery-book-1.jpg"
+                alt="The Hidden Truth"
+              />
+              <img
+                src="assets/images/books/mystery-book-2.jpg"
+                alt="Detective's Dilemma"
+              />
+            </div>
+          </marquee>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 BookVoyage</p>
+    </footer>
+  </body>
+</html>
